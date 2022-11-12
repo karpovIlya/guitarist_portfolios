@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио гитариста</title>
+    <meta name="description" content="Привет, я Виктор. Именно я научу играть тебя на гитаре">
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/fav-icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/fav-icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/fav-icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/fav-icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/fav-icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/fav-icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/fav-icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/fav-icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/fav-icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/fav-icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/fav-icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/fav-iconfavicon-16x16.png">
+    <link rel="manifest" href="icons/fav-icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <main>
+        <!-- Первая секция сайта -->
+        <section class="promo-section">
+            <!-- Шапка сайта -->
+            <header class="promo-section__header">
+                <div class="container promo-section__header-container">
+                    <div class="promo-section__logo">
+                        <img src="icons/logo.svg" alt="guitar school">
+                    </div>
+
+                    <!-- Гамбургер для мобилок -->
+                    <div class="promo-section__hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- Навигационное меню -->
+                    <nav class="promo-section__nav-menu">
+                        <ul>
+                            <li class="promo-section__nav-elem"><a href="#about-me">Обо мне</a></li>
+                            <li class="promo-section__nav-elem"><a href="#learning">Занятия</a></li>
+                            <li class="promo-section__nav-elem"><a href="#recording">Запись</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- Вторая часть первой секции сайта(контент) -->
+            <div class="promo-section__content">
+                <div class="container promo-section__content-container">
+                    <!-- Часть с картинкой Виктора -->
+                    <div class="promo-section__content-img">
+                        <img src="img/victor.png" alt="Фото Виктора" class="promo-section__victor-img">
+
+                        <div class="promo-section__rectangle-blue"></div>
+                        <div class="promo-section__rectangle-orange"></div>
+                        <div class="promo-section__rectangle-grey"></div>
+                    </div>
+
+                    <!-- Часть с информацией -->
+                    <div class="promo-section__content-info">
+                        <!-- Блок с иконками -->
+                        <div class="promo-section__icons icons">
+                            <div class="icons__item">
+                                <i class="fa-brands fa-skype"></i>
+                            </div>
+                            <div class="icons__item">
+                                <i class="fa-brands fa-vk"></i>
+                            </div>
+                            <div class="icons__item">
+                                <i class="fa-brands fa-telegram"></i>
+                            </div>
+                            <div class="icons__item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+
+                        <div class="promo-section__text-wrapper">
+                            <h1 class="promo-section__title">Я Виктор</h1>
+                            <div class="promo-section__title-underline"></div>
+                            <div class="promo-section__text">
+                                Репетитор игры на гитаре с семилетним<br> 
+                                опытом преподавания
+                            </div>
+
+                            <div class="promo-section__buttons-block buttons-block">
+                                <button class="buttons-block__btn">
+                                    Забронировать<br>
+                                    урок
+                                </button>
+
+                                <div class="buttons-block__question">
+                                    <img src="icons/chat-icon.svg" alt="Иконка чата">
+                                    <div class="buttons-block__question-text">
+                                        Есть<br>
+                                        вопросы?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="promo-section__round round">
+                        <div class="round__sub"></div>
+                    </div>
+
+                    <div class="promo-section__round-big round round_big">
+                        <div class="round__sub round__sub_big"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Вторая секция сайта -->
+        <section class="services-section" id="about-me">
+            <div class="services-section__container container">
+                <h2 class="services-section__title">Преподаю</h2>
+                <div class="services-section__title-underline"></div>
+
+                <!-- Обертка карточек -->
+                <div class="services-section__card-wrapper">
+                    <!-- Карточка с электро гитарой -->
+                    <div class="services-section__card">
+                        <img src="img/electroGuitar.png" alt="Фото с электро гитарой">
+
+                        <h3 class="services-section__card-title">
+                            Электро<br>
+                            гитара
+                        </h3>
+                    </div>
+
+                    <!-- Карточка с акустической гитарой -->
+                    <div class="services-section__card services-section__card-orange">
+                        <img src="img/acousticsGuitar.png" alt="Фото с акустической гитарой">
+
+                        <h3 class="services-section__card-title">
+                            Акустическая<br>
+                            гитара
+                        </h3>
+                    </div>
+
+                    <!-- Карточка с укулеле -->
+                    <div class="services-section__card services-section__card-blue">
+                        <img src="img/ukulelli.png" alt="Фото с укулеле гитарой">
+
+                        <h3 class="services-section__card-title">
+                            Укулеле<br>
+                            гитара
+                        </h3>
+                    </div>
+                </div>
+
+                <!-- Обертка описания преимуществ -->
+                <div class="services-section__benefits-wrapper">
+                    <!-- 7 лет преподавания -->
+                    <div class="services-section__benefit">
+                        <img src="icons/icon1.svg" alt="Иконка кубка">
+
+                        <div class="services-section__benefit-text-wrap">
+                            <h3 class="services-section__benefit-title">7</h3>
+
+                            <div class="services-section__benefit-text">
+                                лет<br>
+                                преподавания
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Отзывы на 5 звезд -->
+                    <div class="services-section__benefit">
+                        <img src="icons/icon2.svg" alt="Иконка кубка">
+
+                        <div class="services-section__benefit-text-wrap">
+                            <h3 class="services-section__benefit-title">276</h3>
+
+                            <div class="services-section__benefit-text">
+                                Отзывов<br>
+                                на 5 звезд
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Кол-во студентов -->
+                    <div class="services-section__benefit">
+                        <img src="icons/icon3.svg" alt="Иконка кубка">
+
+                        <div class="services-section__benefit-text-wrap">
+                            <h3 class="services-section__benefit-title">314</h3>
+
+                            <div class="services-section__benefit-text">
+                                Студентов<br>
+                                обученно
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Часы преподавания -->
+                    <div class="services-section__benefit">
+                        <img src="icons/icon4.svg" alt="Иконка кубка">
+
+                        <div class="services-section__benefit-text-wrap">
+                            <h3 class="services-section__benefit-title">2000</h3>
+
+                            <div class="services-section__benefit-text">
+                                часов<br>
+                                преподавания
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="round services-section__round-1">
+                    <div class="round__sub services-section__round-sub"></div>
+                </div>
+
+                <div class="round services-section__round-2">
+                    <div class="round__sub services-section__round-sub"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Третья секция -->
+        <section class="education-section" id="learning">
+            <div class="education-section__container container">
+                <!-- Главный заголовок -->
+                <div class="education-section__title-wrapper">
+                    <h2 class="education-section__main-title">Обучение</h2>
+                    <div class="education-section__title-underline"></div>
+                </div>
+
+                <!-- Участок с информацией по обучению -->
+                <div class="education-section__info-wrapper">
+                    <h3 class="education-section__sub-title">
+                        Готовлю<br>
+                        виртуозов
+                    </h3>
+                    <div class="education-section__sub-title-underline"></div>
+
+                    <div class="education-section__text">
+                        Равным образом рамки и место обучения кадров влечет за собой 
+                        процесс внедрения и модернизации позиций, занимаемых 
+                        участниками в отношении поставленных задач. Товарищи! 
+                        реализация намеченных плановых заданий позволяет выполнять 
+                        важные задания по разработке систем массового участия. 
+                        <br><br>
+                        Повседневная практика показывает, что рамки и место обучения 
+                        кадров позволяет оценить значение новых предложений. 
+                        Не следует, однако забывать, что рамки и место обучения 
+                        кадров влечет за собой процесс внедрения и модернизации 
+                        систем массового участия.
+                    </div>
+
+                    <!-- Кнопка -->
+                    <div class="education-section__buttons-block buttons-block">
+                        <button class="buttons-block__btn">
+                            Забронировать<br>
+                            урок
+                        </button>
+
+                        <div class="buttons-block__question">
+                            <img src="icons/chat-icon.svg" alt="Иконка чата">
+                            <div class="buttons-block__question-text">
+                                Есть<br>
+                                вопросы?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-section__round-big-1 round round_big">
+                    <div class="round__sub round__sub_big"></div>
+                </div>
+
+                <img src="icons/figure.svg" alt="Фигура" class="education-section__figure">
+            
+                <div class="education-section__round-big-2 round round_big">
+                    <div class="round__sub round__sub_big"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="recording">
+        <div class="footer__container container">
+            <img src="img/guitar.jpg" alt="Фото гитары" class="footer__img">
+
+            <div class="footer__title-wrapper">
+                <h2 class="footer__title">
+                    Запишись на<br>
+                    пробный урок
+                </h2>
+                <div class="footer__title-underline"></div>
+            </div>
+
+            <div class="footer__icons icons">
+                <div class="icons__item">
+                    <i class="fa-brands fa-skype"></i>
+                </div>
+                <div class="icons__item">
+                    <i class="fa-brands fa-vk"></i>
+                </div>
+                <div class="icons__item">
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+                <div class="icons__item">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/cb74a27bad.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

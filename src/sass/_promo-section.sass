@@ -1,0 +1,95 @@
+.promo-section
+    position: relative
+    min-height: 800px
+    background: #E5E5E5
+    padding-top: 16px
+    overflow: hidden
+    // overflow: hidden - делает невидимым объекты выходящие за рамки блока
+    // работает только с блоками position: relative
+    &__header-container
+        height: 69px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__nav-elem
+        display: inline-block
+        margin-right: 64px
+        &:last-child
+            margin-right: 0
+        a
+            font-weight: 600
+            font-size: 18px
+            color: #000
+            text-decoration: none
+            &:hover
+                text-decoration: underline
+    &__content-container
+        display: flex
+        position: relative
+    &__victor-img
+        position: relative
+        z-index: 2
+    &__rectangle-blue
+        position: absolute
+        top: 150px
+        left: -15px
+        z-index: 1
+        border-radius: 100px 
+        background: #5290EA
+        width: 565.95px
+        height: 220px
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        transform: rotate(-64deg)
+    &__rectangle-orange
+        position: absolute
+        top: 155px
+        left: 8px
+        z-index: 1
+        border-radius: 100px 
+        background: #F28B64
+        width: 618.43px
+        height: 220px
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        transform: rotate(-50.81deg)
+    &__rectangle-grey
+        position: absolute
+        width: 608.97px
+        height: 220px
+        top: 190px
+        left: 47px
+        background: #E2E2E2
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        transform: rotate(-36.15deg)
+    &__content-info
+        z-index: 100
+        position: absolute
+        top: 150px
+        right: 76px
+    &__icons
+        margin-bottom: 1px
+    &__title
+        font-weight: 600
+        font-size: 72px
+        margin-bottom: 5px
+    &__title-underline
+        position: relative
+        top: -5px
+        width: 65px
+        height: 2px
+        background: #000
+    &__text
+        font-weight: 400
+        font-size: 16px
+        line-height: 20px
+        margin-bottom: 20px
+    &__round
+        position: absolute
+        top: 129px
+        right: 34px
+        z-index: 1
+    &__round-big
+        position: absolute
+        bottom: -100px
+        right: -240px
+        z-index: 1
